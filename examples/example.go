@@ -4,7 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"time"
-	"timer/pkg/timewheel"
+
+	"github.com/jonyhy96/timer/pkg/timewheel"
 
 	"github.com/golang/glog"
 )

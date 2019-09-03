@@ -3,8 +3,9 @@ package timewheel
 import (
 	"fmt"
 	"time"
-	"timer/pkg/queue"
-	"timer/pkg/util"
+
+	"github.com/jonyhy96/timer/pkg/queue"
+	"github.com/jonyhy96/timer/pkg/util"
 
 	"github.com/golang/glog"
 )
