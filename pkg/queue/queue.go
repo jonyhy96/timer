@@ -14,6 +14,7 @@ type Queue struct {
 func (q *Queue) AddTask(task string, seconds int64) {
 	if val, ok := q.tasks.Load(seconds); ok {
 		val = append(val.([]string), task)
+		q.tasks.Store(seconds, val)
 	} else {
 		q.tasks.Store(seconds, []string{task})
 	}
