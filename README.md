@@ -1,4 +1,6 @@
 # timer project
+[![Go Report Card](https://goreportcard.com/badge/github.com/jonyhy96/timer)](https://goreportcard.com/report/github.com/jonyhy96/timer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 timer helps you to handle task at a specific time backend.
 it's pretty much like crond on linux.
